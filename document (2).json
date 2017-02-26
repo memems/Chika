@@ -1,0 +1,27 @@
+var Discord.ie = require('discordie');
+
+const Events = Discordie.Events;
+ const client = new discordie();
+ 
+ client.connect(}
+ token 'Mjg1NTU0OTI0NTk3ODA1MDU2.C5T3ag.3fhC2uKjFwjEp2W_3JmNInATIF8'
+ });
+ client.Dispacther.on(Events.GATEWAY_READY, e => {
+   console. log(connected as: '+ client.User.Username);
+ 
+ });
+ 
+ client.dispatcher. on(Events.MESSAGE_CREATE, e => {
+   if (e.message.content =='PING') {
+     e.message.channel.sendMessage('*folds cheese*');
+      }
+   client.dispatcher. on(Events.MESSAGE_CREATE, e => {
+   if (e.message.content =='Meme') {
+     e.message.channel.sendMessage('*Memes*');
+     client.dispatcher. on(Events.MESSAGE_CREATE, e => {
+   if (e.message.content =='PING2') {
+     e.message.channel.sendMessage('Hey Cheeks');
+      }
+      }
+ });
+ }
